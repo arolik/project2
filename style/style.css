@@ -7,6 +7,9 @@ h1, h2, h3, h4 {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* header */
+
+
 .headerBg {
     background:url("../img/headerBg.png");
     background-repeat:no-repeat;
@@ -15,7 +18,7 @@ h1, h2, h3, h4 {
     background-blend-mode:multiply ;
     background-color:#808080;
     height:770px;
-    padding-top:320px;
+    
 }
 
 .navbar-brand {
@@ -45,6 +48,103 @@ h1, h2, h3, h4 {
     text-transform:uppercase;
     font-size:20px;
 }
+
+/*  services */
+.services {
+    padding:100px 0px;
+}
+
+.servicesWrapper {
+    margin-bottom:70px;
+}
+
+.servicesWrapper  h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight:700;
+        font-size:20px;
+        text-transform:uppercase;
+    }
+
+.servicesWrapper hr {
+    content:"";
+    display:block;
+    width:50px;
+    height:2px;
+    background:#000;
+}
+
+.servicesWrapper p {
+    font-family: 'Roboto Slab', serif;
+    font-size:16px;
+}
+
+.ourServices h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-size:16px;
+        text-transform:uppercase;
+}
+
+.ourServices p {
+    font-family: 'Roboto Slab', serif;
+    font-size:12px;
+    line-height:2.0;
+}
+
+/* About Us */
+
+.aboutUs {
+    background:#f8f8f8;
+    padding:100px 0px;
+}
+
+.aboutWrapper {
+    margin-bottom:100px;
+}
+
+.aboutWrapper  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    font-size:20px;
+    text-transform:uppercase;
+}
+
+.aboutWrapper hr {
+    content:"";
+    display:block;
+    width:50px;
+    height:2px;
+    background:#000;
+}
+
+.aboutWrapper p {
+    font-family: 'Roboto Slab', serif;
+    font-size:16px;
+}
+
+.aboutText {
+    margin-bottom:70px;
+}
+
+.aboutText p {
+    font-family: 'Roboto Slab', serif;
+    font-size:12px;
+    line-height:2.0;
+}
+
+/* //////////////////// */
+
+.carousel-inner .carousel-item.active,.carousel-inner .carousel-item-next,.carousel-inner .carousel-item-prev{display:flex}
+.carousel-inner .carousel-item-right.active,.carousel-inner .carousel-item-next{transform:translateX(25%)}
+.carousel-inner .carousel-item-left.active,.carousel-inner .carousel-item-prev{transform:translateX(-25%)}
+.carousel-inner .carousel-item-right,.carousel-inner .carousel-item-left{transform:translateX(0)}
+
+.sr-only:hover {
+    background:red;
+}
+
+/* ///////////////////////// */
+
+
 
 
 
