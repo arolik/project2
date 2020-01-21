@@ -98,7 +98,7 @@ h1, h2, h3, h4 {
 }
 
 .aboutWrapper {
-    margin-bottom:100px;
+    margin-bottom:70px;
 }
 
 .aboutWrapper  h3 {
@@ -166,7 +166,11 @@ h1, h2, h3, h4 {
 /*  Last Work */
 
 .lastWork {
-    padding:100px 0px;
+    padding:100px 0px 0px 0px;
+}
+
+.lastWrapper {
+    margin-bottom:70px;
 }
 
 .lastWork h3 {
@@ -300,6 +304,70 @@ padding:100px 0px;
     border:2px solid #FA8072;
     background-color:#fff;
 }
+
+/* Blog  */
+
+.blog {
+    padding:100px 0px;
+}
+
+.blogWrapper {
+    margin-bottom:70px;
+}
+
+.blogWrapper  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    font-size:20px;
+    text-transform:uppercase;
+}
+
+.blogWrapper hr {
+    content:"";
+    display:block;
+    width:50px;
+    height:2px;
+    background:#000;
+}
+
+.blogWrapper p {
+    font-family: 'Roboto Slab', serif;
+    font-size:16px;
+}
+
+.postBg {
+    background:#bbbbbb;
+    opacity:0.5;
+}
+
+.postBg:hover {
+    opacity:1;
+}
+
+.blogPost h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    font-size:16px;
+    text-transform:uppercase;
+}
+
+.blogPost p, em {
+    font-family: 'Roboto Slab', serif;
+    font-size:16px;
+    line-height:2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
