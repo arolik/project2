@@ -198,18 +198,65 @@ h1, h2, h3, h4 {
 
 
 .ourWork {
+
+}
+
+.workBg {
+    position:relative;
+    background:#c0301c;
     
 }
 
+.workBg img:hover {
+    cursor:pointer;
+    opacity:0.5;
 
+}
 
+.titleBlock {
+    position:absolute;
+    top:30%;
+    left:30%;
+    color:#fff;
+}
 
+.titleBlock {
+    display:none;
+}
 
+.workBg:hover .titleBlock  {
+    display:block;
+}
 
+.workBg:hover button {
+    color:#c0301c;
+}
 
+.titleBlock h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    font-size:20px;
+    text-transform:uppercase
+}
 
+.titleBlock p {
+    font-family: 'Roboto Slab', serif;
+    font-size:16px;
+}
 
+.titleBlock button {
+    width:100px;
+    height:40px;
+    font-family: 'Roboto Slab', serif;
+    font-size:18px;
+    text-transform: uppercase;
+    border:none;
+}
 
+.titleBlock button:active,
+.titleBlock button:focus {
+    outline:none;
+}
 
 
 
