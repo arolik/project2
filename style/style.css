@@ -197,14 +197,21 @@ h1, h2, h3, h4 {
 }
 
 
-.ourWork {
 
-}
 
 .workBg {
     position:relative;
     background:#c0301c;
     
+}
+
+@media (max-width:768px) {
+    .workBg {
+        max-width:90%;
+    }
+    .workBg img {
+        max-width:100%;
+    }
 }
 
 .workBg img:hover {
@@ -258,14 +265,41 @@ h1, h2, h3, h4 {
     outline:none;
 }
 
+.ourWorkBg {
+background:url("../img/workBg.png");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:cover;
+height:370px;
+margin-top:90px;
+background-blend-mode:multiply;
+background-color:#FA8072;
+padding:100px 0px;
+}
 
+.ourWorkText  {
+    font-family: 'Roboto Slab', serif;
+}
 
+.ourWorkText p {
+    font-size:20px;
+}
 
+.ourWorkText button {
+    color:#fff;
+    text-transform: uppercase;
+    width:180px;
+    height:40px;
+    border:2px solid #fff;
+    background-color:transparent;
+}
 
-
-
-
-
+.ourWorkText button:hover {
+    color:#FA8072;
+    text-transform: uppercase;
+    border:2px solid #FA8072;
+    background-color:#fff;
+}
 
 
 
