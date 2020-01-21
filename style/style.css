@@ -138,11 +138,89 @@ h1, h2, h3, h4 {
 .carousel-inner .carousel-item-left.active,.carousel-inner .carousel-item-prev{transform:translateX(-25%)}
 .carousel-inner .carousel-item-right,.carousel-inner .carousel-item-left{transform:translateX(0)}
 
-.sr-only:hover {
-    background:red;
+.bgPhoto:hover {
+    background:silver;
+    opacity:0.9;
+}
+
+.bgPhoto:hover {
+    opacity:0.5;
+}
+
+ .carousel-control-prev:hover {
+    background:#c0301c;
+    opacity:0.5;
+}
+.carousel-control-next:hover {
+    background:#c0301c;
+    opacity:0.5;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width:100px;
+    height:auto;
 }
 
 /* ///////////////////////// */
+
+/*  Last Work */
+
+.lastWork {
+    padding:100px 0px;
+}
+
+.lastWork h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    font-size:20px;
+    text-transform:uppercase;
+}
+
+.lastWork hr {
+    content:"";
+    display:block;
+    width:50px;
+    height:2px;
+    background:#000;
+}
+
+.lastWork a {
+    font-family: 'Roboto Slab', serif;
+    font-size:16px;
+    text-decoration:none;
+
+}
+
+.workLink a:hover {
+    cursor:pointer;
+    color:#c0301c !important;
+}
+
+
+.ourWork {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
